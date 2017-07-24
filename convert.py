@@ -56,5 +56,5 @@ pd.DataFrame.from_dict({'id': dialogId,
                         }
                        ) \
     .set_index('id') \
-    .to_csv('test.csv')
+    .to_csv('test.csv', sep="\t")
 
