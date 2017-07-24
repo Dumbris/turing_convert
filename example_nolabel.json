@@ -1,0 +1,62 @@
+[{
+    "dialogId" : 820898929,
+    "users" : [
+        {
+            "id" : "Bob"
+        },
+        {
+            "id" : "Alice"
+        }
+    ],
+    "context" : "15th Street starts at FDR Drive, and 16th Street starts at a dead end half way between FDR Drive and Avenue C. They are both stopped at Avenue C and continue from First Avenue to West Street, stopped again at Union Square, and 16th Street also pauses at Stuyvesant Square.",
+    "thread" : [
+        {
+            "userId" : "Bob",
+            "text" : "Hi"
+        },
+        {
+            "userId" : "Bob",
+            "text" : "Are you here???"
+        },
+        {
+            "userId" : "Alice",
+            "text" : "Hi!"
+        },
+        {
+            "userId" : "Alice",
+            "text" : "Bye"
+        }
+  ]
+},
+{
+    "dialogId" : 820898930,
+    "users" : [
+        {
+            "id" : "Bob"
+        },
+        {
+            "id" : "Alice"
+        }
+    ],
+    "context" : "15th Street starts at FDR Drive, and 16th Street starts at a dead end half way between FDR Drive and Avenue C. They are both stopped at Avenue C and continue from First Avenue to West Street, stopped again at Union Square, and 16th Street also pauses at Stuyvesant Square.",
+    "thread" : [
+        {
+            "userId" : "Bob",
+            "text" : "Hi"
+        },
+        {
+            "userId" : "Bob",
+            "text" : "Are you here???"
+        },
+        {
+            "userId" : "Alice",
+            "text" : "Hi!"
+        },
+        {
+            "userId" : "Alice",
+            "text" : "Bye"
+        }
+  ]
+}
+]
+
