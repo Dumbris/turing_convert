@@ -4,7 +4,7 @@ import pandas as pd
 import nltk
 # Initialize global variables
 DATASETS_DIR = './'
-TEST_FILE = 'example_nolabel.json'
+TEST_FILE = 'test_20170724.json'
 END_OF_STRING = ' '
 TOKEN_DELIMETR = ' '
 ALICE_ID = 'Alice'
@@ -52,9 +52,9 @@ pd.DataFrame.from_dict({'id': dialogId,
                         'context': context,
                         'response': thread,
                         'response_alice': thread_alice,
-                        'response_bob': thread_alice
+                        'response_bob': thread_bob
                         }
                        ) \
     .set_index('id') \
-    .to_csv('test.csv', sep="\t")
+    .to_csv('test_2.csv', sep="\t")
 
